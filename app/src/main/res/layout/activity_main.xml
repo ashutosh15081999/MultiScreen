@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Numbers"
+        android:id="@+id/numbers"
+        android:textAppearance="@android:style/TextAppearance.DeviceDefault.Medium"
+        android:textStyle="bold"
+        android:textColor="@android:color/white"
+        android:padding="16dp"
+        android:background="#ffa41b"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textStyle="bold"
+        android:id="@+id/Family"
+        android:textAppearance="@android:style/TextAppearance.DeviceDefault.Medium"
+        android:padding="16dp"
+        android:text="Family Members"
+        android:textColor="@android:color/white"
+        android:background="#21bf73"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textStyle="bold"
+        android:id="@+id/Colors"
+        android:padding="16dp"
+        android:textColor="@android:color/white"
+        android:textAppearance="@android:style/TextAppearance.DeviceDefault.Medium"
+        android:text="Colors"
+        android:background="#633a82"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textStyle="bold"
+        android:padding="16dp"
+        android:id="@+id/Phrases"
+        android:textAppearance="@android:style/TextAppearance.DeviceDefault.Medium"
+        android:textColor="@android:color/white"
+        android:text="Phrases"
+        android:background="#66cccc"/>
+
+
+</LinearLayout>
