@@ -36,6 +36,7 @@
         android:textStyle="bold"
         android:id="@+id/Colors"
         android:padding="16dp"
+        android:drawSelectorOnTop="true"
         android:textColor="@android:color/white"
         android:textAppearance="@android:style/TextAppearance.DeviceDefault.Medium"
         android:text="Colors"
